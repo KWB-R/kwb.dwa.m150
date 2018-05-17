@@ -1,9 +1,12 @@
 Package: kwb.dwa.m150
-Maintainer: Hauke Sonnenberg <hauke.sonnenberg@kompetenz-wasser.de>
-Author: Hauke Sonnenberg
-Version: 0.0.99
+Authors@R: c(person("Hauke", "Sonnenberg", , "hauke.sonnenberg@kompetenz-wasser.de", role = c("aut", "cre")),
+             person("Kompetenzzentrum Wasser Berlin gGmbH", role = c("cph")))
+Version: 0.0.9000
 Imports: kwb.utils, xml2
+Remotes: github::kwb-r/kwb.utils
 License: GPL
 Title: Read Sewer Condition Data according to DWA-M 150 XML format
 Description: Read Sewer Condition Data according to DWA-M 150 XML format.
 RoxygenNote: 6.0.1
+URL: https://github.com/kwb-r/kwb.dwa.m150
+BugReports: https://github.com/kwb-r/kwb.dwa.m150/issues
