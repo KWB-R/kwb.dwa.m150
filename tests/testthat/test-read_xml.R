@@ -1,0 +1,24 @@
+test_that("read_xml_dwa_m150() works", {
+
+  expect_error(kwb.dwa.m150:::read_xml_dwa_m150())
+})
+
+test_that("set_id_columns() works", {
+
+  expect_error(kwb.dwa.m150:::set_id_columns())
+})
+
+test_that("extract_index() works", {
+
+  expect_error(kwb.dwa.m150:::extract_index())
+})
+
+test_that("get_as_data_frame() works", {
+
+  expect_error(kwb.dwa.m150:::get_as_data_frame())
+})
+
+test_that("get_field_names() works", {
+
+  kwb.dwa.m150:::get_field_names()
+})
