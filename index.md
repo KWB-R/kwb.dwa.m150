@@ -1,5 +1,3 @@
-# kwb.dwa.m150
-
 [![Appveyor build status](https://ci.appveyor.com/api/projects/status/iicavfew3kfs20va/branch/master?svg=true)](https://ci.appveyor.com/project/KWB-R/kwb-dwa-m150/branch/master)
 [![Build Status](https://travis-ci.org/KWB-R/kwb.dwa.m150.svg?branch=master)](https://travis-ci.org/KWB-R/kwb.dwa.m150)
 [![codecov](https://codecov.io/github/KWB-R/kwb.dwa.m150/branch/master/graphs/badge.svg)](https://codecov.io/github/KWB-R/kwb.dwa.m150)
@@ -28,9 +26,3 @@ if (! require("remotes")) {
 
 remotes::install_github("kwb-r/kwb.dwa.m150")
 ```
-
-# Documentation
-
-Release: [https://kwb-r.github.io/kwb.dwa.m150](https://kwb-r.github.io/kwb.dwa.m150)
-
-Development: [https://kwb-r.github.io/kwb.dwa.m150/dev](https://kwb-r.github.io/kwb.dwa.m150/dev)
