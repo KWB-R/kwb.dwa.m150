@@ -1,16 +1,25 @@
 Package: kwb.dwa.m150
-Authors@R: c(
-    person("Hauke", "Sonnenberg", , "hauke.sonnenberg@kompetenz-wasser.de", 
-           role = c("aut", "cre"), comment = c(ORCID = "0000-0001-9134-2871")),
-    person("Kompetenzzentrum Wasser Berlin gGmbH", role = c("cph")))
+Title: Read Sewer Condition Data according to DWA-M 150 XML
+    format
 Version: 0.0.9.9000
-Imports: kwb.utils, xml2
-Remotes: github::kwb-r/kwb.utils
+Authors@R: 
+    c(person(given = "Hauke",
+             family = "Sonnenberg",
+             role = c("aut", "cre"),
+             email = "hauke.sonnenberg@kompetenz-wasser.de",
+             comment = c(ORCID = "0000-0001-9134-2871")),
+      person(given = "Kompetenzzentrum Wasser Berlin gGmbH",
+             role = "cph"))
+Description: Read Sewer Condition Data according to DWA-M 150
+    XML format.
 License: MIT + file LICENSE
-Title: Read Sewer Condition Data according to DWA-M 150 XML format
-Description: Read Sewer Condition Data according to DWA-M 150 XML format.
-RoxygenNote: 6.0.1
 URL: https://github.com/kwb-r/kwb.dwa.m150
 BugReports: https://github.com/kwb-r/kwb.dwa.m150/issues
+Imports: 
+    kwb.utils,
+    xml2
 Suggests: 
     testthat
+Remotes: 
+    github::kwb-r/kwb.utils
+RoxygenNote: 6.1.1
